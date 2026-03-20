@@ -59,7 +59,7 @@ fi
 
 # 2. Обновление системы и базовые зависимости
 echo "--- Обновление системы и установка базовых пакетов ---"
-sudo apt update && sudo apt install -y git curl openssl qrencode systemd && rm -rf ~/self-signed-cert-script-by-antenka
+sudo apt update && sudo apt install -y git curl openssl qrencode systemd && rm -rf ~/self-signed-cert-script
 
 # 3. Проверка на уже установленную панель
 if [ -f "/usr/local/x-ui/x-ui" ]; then
