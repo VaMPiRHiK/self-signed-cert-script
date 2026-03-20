@@ -76,15 +76,15 @@ safe_clear
 echo "═══════════════════════════════════════════════════════════"
 echo "         УСТАНОВКА ЗАВЕРШЕНА! ДАННЫЕ ДЛЯ ВХОДА:            "
 echo "═══════════════════════════════════════════════════════════"
-echo -e "Username: \e[1m${USER_EXT}\e[0m"
-echo -e "Password:           \e[1m${PASS_EXT}\e[0m"
-echo -e "Port:             \e[33m${PORT_EXT}\e[0m"
+echo "Username: ${USER_EXT}"
+echo "Password: ${PASS_EXT}"
+echo "Port: ${PORT_EXT}"
 if [[ -z "$PATH_CLEAN" ]]; then
-    echo -e "WebBasePath:      /"
+    echo "WebBasePath: /"
 else
-    echo -e "WebBasePath:      /${PATH_CLEAN}/"
+    echo "WebBasePath: /${PATH_CLEAN}/"
 fi
-echo -e "URL: \e[32m\e[4m${URL_EXT}\e[0m"
+echo "URL: ${URL_EXT}"
 echo "═══════════════════════════════════════════════════════════"
 echo -e "\e[1;33m⚠️  ОБЯЗАТЕЛЬНО СОХРАНИТЕ ЭТИ ДАННЫЕ!\e[0m"
 echo "═══════════════════════════════════════════════════════════"
@@ -165,15 +165,15 @@ safe_clear
 echo "═══════════════════════════════════════════════════════════"
 echo "         УСТАНОВКА ЗАВЕРШЕНА! ДАННЫЕ ДЛЯ ВХОДА:            "
 echo "═══════════════════════════════════════════════════════════"
-echo -e "Username: \e[1m${USER_EXT}\e[0m"
-echo -e "Password:           \e[1m${PASS_EXT}\e[0m"
-echo -e "Port:             \e[33m${PORT_EXT}\e[0m"
+echo "Username: ${USER_EXT}"
+echo "Password: ${PASS_EXT}"
+echo "Port: ${PORT_EXT}"
 if [[ -z "$PATH_CLEAN" ]]; then
-    echo -e "WebBasePath:      /"
+    echo "WebBasePath: /"
 else
-    echo -e "WebBasePath:      /${PATH_CLEAN}/"
+    echo "WebBasePath: /${PATH_CLEAN}/"
 fi
-echo -e "URL: \e[32m\e[4m${URL_EXT}\e[0m"
+echo "URL: ${URL_EXT}"
 echo "═══════════════════════════════════════════════════════════"
 echo -e "\e[1;33m⚠️  ОБЯЗАТЕЛЬНО СОХРАНИТЕ ЭТИ ДАННЫЕ!\e[0m"
 echo "═══════════════════════════════════════════════════════════"
